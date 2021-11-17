@@ -170,7 +170,7 @@ section {
     height: 100%;
 }
 
-main  h1 {
+main  h2 {
     line-height: 60px;
     padding-top: 40px;
     margin-bottom: 20px;
@@ -196,7 +196,7 @@ main  p {
     margin: 0 auto;
 }
 
-.last-section > div h2 {
+.last-section > div > h2 {
     background-image: url(../img/stars.svg);
     background-size: cover;
     width: 50%;
@@ -213,4 +213,18 @@ main  p {
 footer {
     height: 700px;
     background-color: #23272A;
+}
+
+footer > div > div, footer > div > hr {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    border-color: #8EA1E1;
+    margin: 20px 0;
+}
+
+#info, #register {
+    margin: 20px 0;
 }
