@@ -14,7 +14,7 @@
 }
 
 .container {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 /* UTILITIES */
@@ -30,6 +30,10 @@
 }
 
 .btn{}
+
+.btn-small{}
+
+.btn-big {}
 
 .btn-white{}
 
@@ -62,10 +66,13 @@ header {
 
 #topbar {
     background-color: #255EE9;
+    height: 100px;
+    line-height: 100px;
 }
 
-#topbar > * {
-    display: inline-block;
+#logo {
+    vertical-align: middle;
+    height: 40px;
 }
 
 li, li > a {
@@ -76,5 +83,6 @@ li, li > a {
 li > a:hover {
     text-decoration: underline;
 }
+
 
 /* MAIN */
