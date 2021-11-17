@@ -17,7 +17,6 @@
     width: 70%;
     margin: 0 auto;
 }
-/* UTILITIES */
 
 .text-white {
     color: white;
@@ -65,7 +64,11 @@
     background-color: black;
 }
 
-.btn-black:hover, .btn-white:hover {
+.btn-violet {
+    background-color: #8EA1E1;
+}
+
+.btn-white:hover, .btn-black:hover, .btn-violet:hover {
     color: blue;
 }
 
@@ -143,7 +146,7 @@ nav ul li a:hover {
 /* MAIN */
 
 section {
-    height: 700px;
+    height: 1000px;
     width: 100%;
     position: relative;
 }
@@ -175,4 +178,39 @@ main  h1 {
 
 main  p {
     line-height: 30px;
+}
+
+/* LAST SECTION  */
+
+.last-section {
+    margin-bottom: 100px;
+}
+
+.last-section .section-description {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.last-section img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.last-section > div h2 {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+.last-section > div a {
+    font-size: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 700px;
+    background-color: #23272A;
 }
