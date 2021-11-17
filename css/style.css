@@ -48,16 +48,20 @@
 
 .btn {
     text-decoration: none;
+    border-radius: 30px;
 }
 
 .btn-white {
-    
+    background-color: white;
 }
 
+.btn-small {
+    padding: 12px 15px;
+}
 /* HEADER */
 #topbar {
     height: 80px;
-    background-color: #3161E0;
+    background-color: #255EE9;
 }
 
 #logo {
@@ -72,4 +76,19 @@
 
 nav ul li a {
     margin: 0 10px;
+    font-size: 18px;
+}
+
+/* JUMBOTRON */
+
+#jumbotron {
+    background-image: url("../img/jumbo.png");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+.contained {
+    width: 50%;
+    margin: 0 auto;
 }
