@@ -49,14 +49,28 @@
 .btn {
     text-decoration: none;
     border-radius: 30px;
+    padding: 15px 20px;
 }
 
 .btn-white {
     background-color: white;
 }
 
-.btn-small {
-    padding: 12px 15px;
+.btn-black {
+    background-color: black;
+}
+
+.btn-black:hover, .btn-white:hover {
+    color: blue;
+}
+
+.title-size {
+    font-size: 65px;
+}
+
+.paragraph-size {
+    font-size: 24px;
+    line-height: 35px;
 }
 /* HEADER */
 #topbar {
@@ -83,7 +97,7 @@ nav ul li a {
 
 #jumbotron {
     background-image: url("../img/jumbo.png");
-    height: 700px;
+    height: 600px;
     background-position: center;
     background-size: cover;
 }
@@ -91,4 +105,20 @@ nav ul li a {
 .contained {
     width: 50%;
     margin: 0 auto;
+}
+
+.jumbo-text {
+    padding: 100px 0;
+}
+
+.jumbo-text > * {
+    margin: 40px 0;
+}
+
+.jumbo-text > div > a:first-child {
+    margin-right: 60px;
+}
+
+.jumbo-text > div > a {
+    font-size: 22px;
 }
