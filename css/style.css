@@ -169,6 +169,8 @@ section {
 
 main  h1 {
     line-height: 60px;
+    padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 main  p {
