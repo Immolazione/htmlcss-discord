@@ -271,3 +271,23 @@ hr {
     font-size: 20px;
     margin-right: 20px;
 }
+
+#register {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+#register > * {
+    display: inline-block;
+}
+
+#register img {
+    vertical-align: middle;
+}
+
+#register a {
+    position: absolute;
+    right: 0;
+    line-height: 20px;
+}
